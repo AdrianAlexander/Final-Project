@@ -1,0 +1,6 @@
+so for today i made a hierarchy chart about calculator. 
+im still not sure about what should i make for the final project.
+so for now i picked calculator. maybe if i had a better idea i'll change it.
+but if not i'll add another math operator
+to make it more interesting and more complex. 
+so basicly the hierarchy char i uploaded is just a rough draft and can be change.
