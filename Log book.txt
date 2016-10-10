@@ -4,3 +4,6 @@ so for now i picked calculator. maybe if i had a better idea i'll change it.
 but if not i'll add another math operator
 to make it more interesting and more complex. 
 so basicly the hierarchy char i uploaded is just a rough draft and can be change.
+
+10/10/2016
+I changed my project from calculator into a cashier machine that can print out a recipe.
