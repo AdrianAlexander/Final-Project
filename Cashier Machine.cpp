@@ -109,7 +109,7 @@ int main()
 		cin>>nextchoice;
 		cout<<endl;
 	
-	if(nextchoice=="Y" || nextchoice=="y")
+	if(nextchoice=="Y" || nextchoice=="y" || nextchoice=="yes" || nextchoice=="Yes")
 	{
 	goto chooice;	
 	}
