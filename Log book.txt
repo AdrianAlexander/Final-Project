@@ -13,3 +13,6 @@ i made an item list for the shop
 
 21/10/2016
 i made an input to buy the item with the price on it.
+
+28/10/2016
+i found out the code for summing all the price and i add a discount when you bought the items with price between $ 100 to $200
