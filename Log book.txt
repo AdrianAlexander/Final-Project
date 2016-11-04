@@ -16,3 +16,6 @@ i made an input to buy the item with the price on it.
 
 28/10/2016
 i found out the code for summing all the price and i add a discount when you bought the items with price between $ 100 to $200
+
+4/11/2016
+make 2 function for a code first code is the program and the 2nd code is for looping the first code
