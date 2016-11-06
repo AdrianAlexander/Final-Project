@@ -16,11 +16,11 @@ int main()
 						   		 
 	
 	float sum;
-	int counter;
+	int counter=0;
 	
-	for(int i=0;i<9;i++) //to show the list of the items
+	for(counter =0;counter<9;counter++) //to show the list of the items
 	{
-		cout<< i+1<<". "<< itemsarr[i] <<endl;
+		cout<< counter+1<<". "<< itemsarr[counter] <<endl;
 	}
 	
 	cout<<endl;
@@ -38,20 +38,27 @@ int main()
 	return 0;
 }
 
-void nextchoice(float &sum)
+void nextchoice(float &sum) // function for user to input the items that he or she wants to buy
 {
-	int choice, a;
+	int choice;
+	unsigned int a;
 	cout<<"Input the items number that you want to buy : ";
-	cin>>choice;
-	float total;
+	cin>>choice; //input the choice of items that the user wants to buy
+	float total; //for showing the current price
+	
+	
+	cout << setprecision(2) << fixed << showpoint;
+		
 	if(choice==1)
 	{
+		
 		cout<<"how many detergen you want to buy ";
 		cin>>a;
 		cout<<"you purchase "<<a<<" detergen";
 		total = a*6;
-		sum+=total;
+		sum +=total; //sum+ for summing the prices
 		cout<<" and the Price is $"<<total<<endl<<endl;	
+		
 	}
 	else if(choice==2)
 	{
@@ -132,11 +139,19 @@ void nextchoice(float &sum)
 		nextchoice (sum);
 		
 	}
+	
+	
+		if(a==0)
+	{
+		nextchoice(sum);
+	}
+
+	
 	cout << "current price is : $" << sum << endl<<endl;
 	yesNoContinue(sum);
 }
 
-void yesNoContinue(float &sum)  //function for looping
+void yesNoContinue(float &sum)  //function for looping (it will ask the user if he or she wants to buy another things)
 {
 	string userInput;
 	cout << "Do you want to buy another item ? " ;
